@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: #E3E6F3;
   margin: 0;
 }
 
@@ -24,7 +24,6 @@ body {
   font-family: 'Contrail One', cursive;
   margin-left: 30px;
   cursor: pointer;
-
 }
 
 .logo span {
