@@ -1,0 +1,87 @@
+body {
+  background-color: beige;
+  margin: 0;
+}
+
+/* Header Navigation Bar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 3px 40px;
+  background-color: #E3E6F3;
+  z-index: 99;
+  position: sticky;
+  top: 0;
+  transition: background-color 0.5s ease;
+}
+
+/* Logo */
+.logo {
+  font-family: 'Contrail One', cursive;
+  margin-left: 30px;
+  cursor: pointer;
+
+}
+
+.logo span {
+  font-weight: 500;
+  color: red;
+}
+
+/* Center menu */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.items {
+  padding-right: 10px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 550;
+  color: #333333;
+  overflow: hidden;
+  text-decoration: none;
+}
+.items:hover{
+  color: #75B3B5;
+}
+
+/* User name and Profile */
+.user {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  margin-left: 30px ;
+}
+
+.show-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.show-user p {
+  margin: 0px 22px 0px 0px;
+}
+
+.user-line {
+  width: 2.5px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #333333;
+  margin-left: -10px;
+}
+
+.user img {
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  cursor: pointer;
+}
